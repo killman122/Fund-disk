@@ -1,77 +1,8 @@
 const $=new Env('资金盘')
-let cookie='{"type":24,"_silent":true,"token":"3caea93d17a1274d41618145bb9098c4","method":"api.goldTask.ASMMember","device":"android"}'||process.env.jk160//user_key=0017338a6dc7374dd2ffb5d7af8f3e91SRrdDVXS20221206185848&cid=16
+let cookie='{"type":24,"_silent":true,"token":"3caea93d17a1274d41618145bb9098c4","method":"api.goldTask.ASMMember","device":"android"}'
 let cookies=[]
 console.log(cookie)
-// 16680519106688891
-// let i;
-// for(let i=16680519106688891;i<16680519106788891;i++){
-//     console.log(i)
-//     await $.wait(800)
-//     await Bug(i)
-//     await $.wait(200)
-// }
 
-// for(let index=0;index<cookies.length;index++){
-//             let num=index+1
-//             $.log(`======现在正在分割user_key和cid,正在获取数据类型======`)
-//             data=cookies[index].split('&')
-//             $.log(`这是分割完的json对象数据user_key和cid\n${data},数据类型为${typeof (data)}`)//将object中的对象变为数组
-//             console.log(`这是分割完整的数据中的user_key保存在data[0]${data[0]}`)
-//             console.log(`这是分割完整的数据中的cid保存在data[1]${data[1]}`)
-//             data2=data[index].split('=')
-//             $.log(`!!!!!!!!!!!这是测试连续分割字符串中的数据量!!!!!${data2}\n`)
-//             $.log(`这是测试连续分割字符串出现的输出的前缀userkey在data2[0]中${data2[0]}`)
-//             $.log(`这是测试连续分割字符串出现的输出的前缀userkey的数据值在data2[1]${data2[1]}`)
-//             // console.log(data,typeof(data))
-//             $.log(`======现在正在分割ascstoken和userId======`)
-//             data1=asstokens[index].split('&')
-//             console.log(`这是分割完的json对象数据asstoken和userId\n${data1},数据类型为${typeof (data1)}`)
-//             console.log(`这是分割完整的数据中的accessToken保存在data1[0]${data1[0]}`)
-//             console.log(`这是分割完整的数据中的userId保存在data1[1]${data1[1]}`)
-//             data4=data1[1].split('=')
-//             $.log(`这是测试分割出user_id在${data4}`)
-//             data3=data1[index].split('=')
-//             $.log(`!!!!!!!!!!!这是测试连续分割字符串中的数据量!!!!!${data3}\n`)
-//             $.log(`这是测试连续分割字符串出现的输出的前缀accessToken在data3[0]中${data3[0]}`)
-//             $.log(`这是测试连续分割字符串出现的输出的前缀accessToken的数据值在data3[1]${data3[1]}`)
-//             // console.log(asstokens[0])
-//             // console.log(data1,typeof (data1))
-//             $.log(`=========开始第${num}个账户任务========\n\n`)
-//             cookie=cookies[index]
-//             $.log(`当前任务是查询签到状态+++`)//is_signed:1代表签到成功,反之如果为0代表签到不成功
-//             await CheckSignIn()
-//             await $.wait(2000)
-//             $.log(`=====当前正在执行的是签到任务====`)
-//             await SignIn()//这里是post请求的签到接口,正在执行签到任务
-//             await $.wait(2000)
-//             $.log(`开始查询任务列表...\n`)
-//             await $.wait(2000)
-//             $.log(`正在查询任务列表,目前仅支持点赞功能~~~`)
-//             await SearchTask()
-//             await $.wait(1000)
-//             $.log(`====当前正在执行的是随机领取气泡球====`)
-//             await $.wait(2000)
-//             await  CollectBall()
-//             await $.wait(1000)
-//             await  CollectBall()
-//             await $.wait(1000)
-//             await  CollectBall()
-//             await $.wait(1000)
-//             await  CollectBall()
-//             await $.wait(1000)
-//             await  CollectBall()
-//             await $.wait(1000)
-//             await  CollectBall()
-//             await $.wait(1000)
-//             await  CollectBall()
-//             await $.wait(1000)
-//             await  CollectBall()
-//             await $.wait(1000)
-//             await  CollectBall()
-//             await $.wait(1000)
-//             $.log(`气泡球任务执行完成\n`)
-//
-//         }
 !(async ()=>{
     if(cookie){
         for(i=16680519106688892;i<16680519106788891;i++){
