@@ -23,7 +23,7 @@ jobs:
           npm install && npm install got && npm install tough-cookie         
 #           node ./zjp.js  #脚本存在根目录scripts文件夹下
       - name: Run Code
-        run:
+        run: |
          node zjp.js
          node ./zjp.js
          node 1.js
