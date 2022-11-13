@@ -25,6 +25,5 @@ jobs:
       - name: Run Code
         run: |
          node zjp.js
-         node ./zjp.js
          node 1.js
  
