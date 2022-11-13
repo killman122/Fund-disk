@@ -20,11 +20,10 @@ jobs:
           
       - name: Install Dependency       
         run: 
-          npm install
-          npm install got
-          npm install tough-cookie         
+          npm install && npm install got &$ npm install tough-cookie         
           node ./zjp.js  #脚本存在根目录scripts文件夹下
       - name: Run Code
         run:
          node zjp.js
+         node ./zjp.js
  
