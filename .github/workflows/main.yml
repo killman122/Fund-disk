@@ -23,5 +23,8 @@ jobs:
           npm install
           npm install got
           npm install tough-cookie         
-          node 资金盘.js  #脚本存在根目录scripts文件夹下
+          #node 资金盘.js  #脚本存在根目录scripts文件夹下
+      - name: Run Code
+        run:
+         node 资金盘.js
  
