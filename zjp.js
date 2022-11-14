@@ -12,7 +12,7 @@ console.log(cookie)
             await $.wait(200)
         }
     }else {
-        $.log(`\n请先获取cookie填入后在运行\n`)
+        console.log(`\n请先获取cookie填入后在运行\n`)
     }
 })()
 
